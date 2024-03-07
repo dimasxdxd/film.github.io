@@ -10,7 +10,6 @@ sInput.addEventListener('input', (e) => {
 
 search.addEventListener('click', () => {
     row.style.display = 'flex';
-    modal.classList.remove('show'); // Sembunyikan modal saat melakukan pencarian baru
 
     fetch('https://www.omdbapi.com/?apikey=dca61bcc&s=' + inputValue)
         .then(response => response.json())

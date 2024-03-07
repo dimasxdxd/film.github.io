@@ -137,8 +137,8 @@ label {
 }
 
 .card {
-    width: 200px;
-    height: 300px;
+    width: 300px;
+    height: 350px;
     position: relative;
     border-radius: 1rem;
     -webkit-border-radius: 1rem;
